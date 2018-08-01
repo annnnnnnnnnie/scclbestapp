@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
 public class RoomSelectionAni : MonoBehaviour {
-
+//The director for roomSelection
+//controls the movement of two actors
 	public GameObject xmasGameObject;
 	private NavMeshAgent xmasNavAgent;
 	private RoomSelectionXmasAnimationController animationController;
